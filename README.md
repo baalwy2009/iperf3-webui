@@ -21,8 +21,8 @@ Run network speed tests easily from **any device** — macOS, Linux, Windows, or
 
 ## 📸 Screenshots
 <p align="left">
-  <img src="https://raw.githubusercontent.com/MaddyDev-glitch/iperf3-webui/main/images/ipg1.PNG" alt="iPerf3 UI Screenshot 1" height="300" style="margin-right: 10px;"/>
-  <img src="https://raw.githubusercontent.com/MaddyDev-glitch/iperf3-webui/main/images/ipg2.PNG" alt="iPerf3 UI Screenshot 2" height="300"/>
+  <img src="https://raw.githubusercontent.com/baalwy/iperf3-webui/main/images/ipg1.PNG" alt="iPerf3 UI Screenshot 1" height="300" style="margin-right: 10px;"/>
+  <img src="https://raw.githubusercontent.com/baalwy/iperf3-webui/main/images/ipg2.PNG" alt="iPerf3 UI Screenshot 2" height="300"/>
 </p>
 
 ---
@@ -34,7 +34,7 @@ Run network speed tests easily from **any device** — macOS, Linux, Windows, or
 #### 1. Clone the repository
 
 ```bash
-git clone https://github.com/MaddyDev-glitch/iperf3-webui.git
+git clone https://github.com/baalwy/iperf3-webui.git
 cd iperf3-webui
 ```
 
@@ -69,15 +69,15 @@ docker run -it -p 5000:5000 -v ./env.yaml:/app/env.yaml iperf3-webui:v1.4.0.1
 #### 2. Option B: Pull pre-built image from GitHub Container Registry
 
 ```bash
-docker pull ghcr.io/maddydev-glitch/iperf3-webui:v1.4.0.1
+docker pull ghcr.io/baalwy/iperf3-webui:v1.4.0.1
 ```
 📦 This pulls the latest pre-built image from:
-https://github.com/MaddyDev-glitch/iperf3-webui/pkgs/container/iperf3-webui
+https://github.com/baalwy/iperf3-webui/pkgs/container/iperf3-webui
 
 🎨 Customize the Theme Using env.yaml
 If you want to apply custom themes or settings, mount the env.yaml file into the container:
 ```bash
-docker run -it -p 5000:5000 -v ./env.yaml:/app/env.yaml ghcr.io/maddydev-glitch/iperf3-webui:v1.4.0.1
+docker run -it -p 5000:5000 -v ./env.yaml:/app/env.yaml ghcr.io/baalwy/iperf3-webui:v1.4.0.1
 ```
 
 Now access the Web UI at 👉 http://localhost:5000 from your browser.
@@ -150,7 +150,7 @@ For more details, see the [LICENSE](LICENSE) file.
 
 ## Credits
 
-Developed with ☕ and ❤️ by [MaddyDev-glitch (Srimadhaven Thirumurthy)](https://github.com/MaddyDev-glitch)
+Developed with ☕ and ❤️ by [baalwy](https://github.com/baalwy)
 
 ---
 
